@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_clipper_sl_draft_email">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Clipper | SL Draft Email Button</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/clipper_sl_email_draft.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_clipper_sl_draft_email">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Clipper | SL Draft Email Button</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_suitelet_email_content">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Clipper | SL Email Content</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/clipper_sl_email_content.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_suitelet_email_content">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Clipper | SL Email Content</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
