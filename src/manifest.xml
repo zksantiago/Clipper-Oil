@@ -1,4 +1,12 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
   <projectname>Zanovoy Template</projectname>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">CREATESUITEBUNDLES</feature>
+      <feature required="true">CRM</feature>
+    </features>
+    <objects/>
+  </dependencies>
 </manifest>
